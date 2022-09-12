@@ -303,7 +303,7 @@ body .full-width {
     display: flex;
     flex-flow: row wrap;
     gap: var(--gap);
-    margin: 0 8rem;
+    margin: 0 4rem;
 }
 
 .form-grid legend {
@@ -349,6 +349,7 @@ body .full-width {
 
 .form-group ::placeholder {
     color: var(--lightGray-color);
+    font-size: 2rem;
 }
 
 .form-group button:hover {
@@ -492,16 +493,32 @@ body .full-width {
     .section-spacing {
         display: none;
     } */
+
+    #contact .intro-img {
+        display: none;
+    }
 }
 
 @media (max-width: 400px) {
     .top3-content h2, .price-content h2 {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
-    /* .close-menu-label {
-        right: 12px;
-    } */
+    .form-group input {
+        height: 5rem;
+    }
+
+    .form-group button {
+        font-size: 2rem;
+    }
+
+    .contact-form {
+        width: 30rem;
+    }
+
+    .intro-text h2 {
+        font-size: 5rem;
+    }
 }
 
 
