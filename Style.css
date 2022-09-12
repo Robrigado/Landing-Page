@@ -519,7 +519,13 @@ body .full-width {
     .intro-text h2 {
         font-size: 5rem;
     }
+
+    .footer a {
+        font-size: 10px;
+    }
 }
+
+
 
 
 
