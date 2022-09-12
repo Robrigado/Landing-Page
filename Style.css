@@ -494,6 +494,18 @@ body .full-width {
     } */
 }
 
+@media (max-width: 400px) {
+    .top3-content h2, .price-content h2 {
+        font-size: 5rem;
+    }
+
+    /* .close-menu-label {
+        right: 12px;
+    } */
+}
+
+
+
 
 
 
